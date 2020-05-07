@@ -34,7 +34,7 @@ li {
 
 /* ----------------------- header -------------------- */
 .hero {
-    min-height: 600px;
+    min-height: 552px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
