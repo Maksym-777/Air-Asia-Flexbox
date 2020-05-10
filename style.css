@@ -110,8 +110,12 @@ li {
 }
 
 /* ------------------------- title ------------------------------ */
-.content-title__main {
+.content-title {
     width: 520px;
+    margin-left: 0;
+}
+
+.content-title__main {
     font-size: 72px;
     font-weight: 700;
     line-height: 1.2;
@@ -317,7 +321,8 @@ li {
     padding: 3px 10px;
     border-radius: 50%;
 }
-.pagination__link:hover{
+
+.pagination__link:hover {
     color: #d21d16;
     background-color: #fff;
 }
@@ -331,7 +336,6 @@ li {
 
 .about {
     display: flex;
-    justify-content: space-between;
     min-height: 561px;
     margin-bottom: 44px;
 }
