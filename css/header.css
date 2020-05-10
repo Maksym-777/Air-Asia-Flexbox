@@ -10,7 +10,6 @@
 .header {
     display: flex;
     padding-top: 30px;
-    margin-bottom: 20px;
 }
 .header__service {
     margin-bottom: 0;

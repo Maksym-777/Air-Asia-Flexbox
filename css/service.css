@@ -87,6 +87,9 @@ li {
     display: flex;
     justify-content: space-between;
     min-height: 330px;
+}
+
+.service__item {
     margin-bottom: 46px;
 }
 
@@ -164,6 +167,7 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: -25px;
 }
 
 .partners__block__link {

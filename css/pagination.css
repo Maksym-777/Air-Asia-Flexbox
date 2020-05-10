@@ -1,14 +1,13 @@
 .pagination {
     display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
 .pagination__text-block {
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
-    width: 50%;
     text-align: right;
 }
 
@@ -22,7 +21,6 @@
 
 .pagination__list-block {
     font-weight: 700;
-    width: 50%;
 }
 
 .pagination__list {
