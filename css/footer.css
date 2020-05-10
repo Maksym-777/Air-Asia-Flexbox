@@ -1,0 +1,58 @@
+/* ----------------------- footer ----------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 128px;
+    border-top: 1px solid #27353c;
+    padding-top: 30px;
+}
+
+.footer__logo {
+    width: 10%;
+    padding-top: 16px;
+}
+
+.footer__menu {
+    width: 30%;
+    padding-top: 18px;
+}
+
+.footer__social {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__items {
+    margin-right: 8px;
+}
+
+.social__items:last-child {
+    margin-right: 0;
+}
+
+.footer__contacts {
+    width: 30%;
+    padding-top: 14px;
+}
+
+.contacts__freecall {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    color: #999999;
+}
+
+.container__service__bg {
+    background-color: #0e1e26;
+    /* background-color for footer */
+}
+
+.container__service__footer {
+    display: flex;
+    justify-content: space-between;
+}

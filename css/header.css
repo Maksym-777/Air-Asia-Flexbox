@@ -1,0 +1,79 @@
+/* ----------------------- header -------------------- */
+.hero {
+    min-height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 225px;
+}
+
+.header {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.header__service {
+    margin-bottom: 0;
+}
+
+.logo__link {
+    display: inline-block;
+}
+
+.menu {
+    margin-left: 50px;
+    flex: 2;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__items {
+    margin-right: 50px;
+}
+
+.menu__items:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.menu__link:hover {
+    color: #d21d16;
+}
+
+.menu__link-active {
+    color: #d21d16;
+}
+
+.social {
+    min-height: 40px;
+    padding-left: 132px;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.contacts__telefon {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: -3px;
+    color: #ffffff;
+}
+
+.contacts__timework {
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+}
