@@ -1,0 +1,291 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+    background: url(../img/reviews/headline.jpg) no-repeat top;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------- reviews ------------------------ */
+
+.reviews {
+    margin-bottom: 97px;
+}
+
+.reviews__block {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    width: 556px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #f4f5f5;
+}
+
+.reviews__blocks {
+    margin-bottom: 56px;
+}
+
+.reviews__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reviews__block-image {
+    display: flex;
+    height: 190px;
+    margin-bottom: 24px;
+}
+
+.reviews__block-image__img {
+    height: 190px;
+    padding: 50px 21px 0 29px;
+}
+
+.reviews__block-image__img__avatar {
+    height: 139px;
+    width: 139px;
+    border-radius: 50%;
+}
+
+.reviews__block-image__name {
+    padding: 76px 0 0 2px;
+}
+
+.reviews__block-image__name__titl {
+    display: flex;
+    align-items: center;
+}
+
+.reviews_block-image__nik {
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #202123;
+    margin-right: 7px;
+
+}
+
+.reviews_block-image__nik:hover {
+    text-decoration: underline;
+    color: #4d76a1;
+}
+
+.reviews_block-image__tags {
+    font-size: 13px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #333333;
+    padding: 8px 15px;
+    background-color: #c7e9e3;
+    border-radius: 30px;
+}
+
+.reviews__block-text {
+    margin: 0 30px 31px 30px;
+}
+
+.reviews__block-text__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #202123;
+    margin-bottom: 20px;
+
+}
+
+.reviews__block-text__desc {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #818181;
+    margin-bottom: 42px;
+}
+
+.reviews__block-text__date {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #202123;
+}
+
+/* -------------------- banner ------------------- */
+.banner {
+    height: 357px;
+    background: url(../img/couple.png) no-repeat 804px 18px,
+        url(../img/middleline.jpg) no-repeat center;
+}
+
+.banner__title {
+    width: 600px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 124px;
+}
+
+/* --------------------------- form ----------------------- */
+.form {
+    background-color: #f4f5f5;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.form__title {
+    margin-bottom: 60px;
+}
+
+.form__title-text {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #202123;
+}
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form__name,
+.form__social {
+    width: 555px;
+    height: 62px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 4.0px;
+    border: none;
+    padding-left: 29px;
+}
+
+
+.form__social::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #202123;
+}
+
+.form__name::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #202123;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    width: 100%;
+    height: 232px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 4.0px;
+    border: none;
+    padding: 30px;
+    resize: none;
+}
+
+.form__tags {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.form__tags__title {
+    width: 432px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #202123;
+}
+
+.form__tags__tags-name {
+    flex: 1;
+}
+.form__tags__tags-name__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.form__tags__tags-name__list :last-child {
+    justify-content: flex-start;
+}
+
+.form__tags__tags-name__link {
+    font-size: 13px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #333333;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form__tags__tags-name__link:hover {
+    background-color: #c7e9e3;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    width: 165px;
+    height: 52px;
+    background-color: #2f2f2f;
+    border: none;
+    border-radius: 26.0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background-color: #d21d16;
+}
+
+.margin-left {
+    margin-left: 20px;
+}

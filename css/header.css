@@ -1,10 +1,25 @@
 /* ----------------------- header -------------------- */
+.hero__service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 412px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+}
+
 .hero {
     min-height: 552px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 225px;
+}
+.content-title__main {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .header {
@@ -75,4 +90,27 @@
     text-decoration: underline;
     color: #ffffff;
     cursor: pointer;
+}
+.bredcrums__list {
+    display: flex;
+}
+
+.bredcrums__item:after {
+    content: "/";
+    color: #999999;
+}
+
+.bredcrums__item:last-child::after {
+    display: none;
+}
+
+.bredcrums__link {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #999999;
+}
+
+.bredcrums__link-active {
+    font-weight: 700;
 }

@@ -1,0 +1,261 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #0e1e26;
+}
+
+.wrapper {
+    background: url(../img/background_top.png) no-repeat top,
+        #0e1e26 url(../img/background_buttom.png) no-repeat bottom;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ------------------------- title ------------------------------ */
+.content-title {
+    width: 520px;
+    margin-left: 0;
+}
+
+.content-title__main {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.content-title__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 28px 0 14px 0;
+    color: #fff;
+}
+
+.content-title__btn {
+    font-size: 14px;
+    line-height: 98px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ba0700;
+    padding: 17px 39px;
+    border-radius: 30.0px;
+}
+
+.content-title__btn:hover {
+    background-color: #d21d16;
+}
+
+/* ---------------------------- hot deals -------------------------------- */
+.hot-deals {
+    margin-bottom: 142px;
+}
+
+.hot-deals__block {
+    margin-bottom: 50px;
+}
+
+.hot-deals__title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-right: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+.hot-deals__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-deals__item {
+    width: calc(100% / 3 - 20px);
+    min-height: 438px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.hot-deals__description {
+    margin: 19px 20px 0 20px;
+}
+
+.hot-deals__subtitle {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.hot-deals__conditions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-deals__calendar {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.hot-deals__ico {
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    left: 6px;
+}
+
+.hot-deals__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 25px 0 3px 0;
+    color: #333333;
+}
+
+.hot-deals__btn {
+    font-size: 14px;
+    line-height: 98px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ba0700;
+    background-color: #ffffff;
+    border: 2px solid #ba0700;
+    padding: 16px 28px;
+    border-radius: 30.0px;
+}
+
+.hot-deals__btn:hover {
+    color: #fff;
+    background-color: #ba0700;
+}
+
+/* ------------------------ news -------------------------------- */
+.news {
+    margin-bottom: 160px;
+}
+
+.news__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 48px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+.news__item {
+    width: 555px;
+    height: 391px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+
+.news__list :last-child {
+    margin-right: 0;
+}
+
+.news__img {
+    height: 100%;
+    width: 100%;
+}
+
+.news__text {
+    color: #ffffff;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.news__date {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+.news__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.news__description {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+/* ------------------------- about --------------------------- */
+
+.about {
+    display: flex;
+    min-height: 561px;
+    margin-bottom: 44px;
+}
+
+.about__gate {
+    width: 488px;
+    height: 502px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.about__mountains {
+    width: 780px;
+    height: 454px;
+    background-image: url(../img/mountains.jpg);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: -129px;
+    margin-top: 107px;
+}
+
+.about__img {
+    height: 100%;
+}
+
+.about__text {
+    padding: 69px 93px 0 97px;
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 29px;
+}
+
+.about__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
