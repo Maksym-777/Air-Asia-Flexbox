@@ -7,6 +7,7 @@
     <title>Air Asia - Отзывы</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
     <link rel="stylesheet" href="./css/reviews.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/pagination.css">
@@ -23,7 +24,7 @@
                 </div>
                 <div class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__items"><a class="menu__link" href="index.html">Главная</a>
+                        <li class="menu__items"><a class="menu__link" href="about.html">Главная</a>
                         </li>
                         <li class="menu__items"><a class="menu__link" href="service.html">Услуги</a></li>
                         <li class="menu__items"><a class="menu__link menu__link-active" href="#">Отзывы</a></li>
@@ -31,7 +32,14 @@
                 </div>
                 <div class="header__contacts contacts">
                     <a class="contacts__telefon" href="tel:88007003030">8 800 700 30 30</a>
-                    <div class="contacts__timework">График работы</div>
+                    <div class="contacts__timework">
+                        <p class="contacts__timework-text">График работы</p>
+                        <div class="contacts__dropdown">
+                            <p class="contacts__dropdown-hours">пн-вс: 09:00 - 20:00</p>
+                            <p class="contacts__dropdown-lunch">Обед: 14:00-14:30</p>
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
                 </div>
             </header>
             <!-- ------------------------ title ------------------------ -->
@@ -82,6 +90,32 @@
                         <div class="reviews__block">
                             <div class="reviews__block-image">
                                 <div class="reviews__block-image__img">
+                                    <img class="reviews__block-image__img__avatar" src="./img/avatar/liza.jpg" alt="">
+                                </div>
+                                <div class="reviews__block-image__name">
+                                    <div class="reviews__block-image__name__titl">
+                                        <a href="" class="reviews_block-image__nik">Лиза Сидорова</a>
+                                        <img class="reviews_block-image__social" src="./img/vk.png" alt="">
+                                    </div>
+                                    <a href="" class="reviews_block-image__tags">Тур по Тайланду</a>
+                                </div>
+                            </div>
+                            <div class="reviews__block-text">
+                                <h2 class="reviews__block-text__title">Интерестный тур по Таю.</h2>
+                                <p class="reviews__block-text__desc">Сайт рыбатекст поможет дизайнеру, верстальщику,
+                                    вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на
+                                    русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+                                    условиях. При создании генератора мы использовали небезизвестный универсальный код
+                                    речей.</p>
+                                <p class="reviews__block-text__date">Ноябрь 2019</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="reviews__item">
+                        <div class="reviews__block">
+                            <div class="reviews__block-image">
+                                <div class="reviews__block-image__img">
                                     <img class="reviews__block-image__img__avatar" src="./img/avatar/girl.jpg" alt="">
                                 </div>
                                 <div class="reviews__block-image__name">
@@ -101,32 +135,6 @@
                                     речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в
                                     абзаце, что позволяет сделать текст более привлекательным и живым для
                                     визуально-слухового восприятия.</p>
-                                <p class="reviews__block-text__date">Ноябрь 2019</p>
-                            </div>
-
-                        </div>
-                    </li>
-                    <li class="reviews__item">
-                        <div class="reviews__block">
-                            <div class="reviews__block-image">
-                                <div class="reviews__block-image__img">
-                                    <img class="reviews__block-image__img__avatar" src="./img/avatar/liza.jpg" alt="">
-                                </div>
-                                <div class="reviews__block-image__name">
-                                    <div class="reviews__block-image__name__titl">
-                                        <a href="" class="reviews_block-image__nik">Лиза Сидорова</a>
-                                        <img class="reviews_block-image__social" src="./img/vk.png" alt="">
-                                    </div>
-                                    <a href="" class="reviews_block-image__tags">Тур по Тайланду</a>
-                                </div>
-                            </div>
-                            <div class="reviews__block-text">
-                                <h2 class="reviews__block-text__title">Интерестный тур по Таю.</h2>
-                                <p class="reviews__block-text__desc">Сайт рыбатекст поможет дизайнеру, верстальщику,
-                                    вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на
-                                    русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
-                                    условиях. При создании генератора мы использовали небезизвестный универсальный код
-                                    речей.</p>
                                 <p class="reviews__block-text__date">Ноябрь 2019</p>
                             </div>
 
@@ -212,20 +220,46 @@
                             <div class="form__tags__title">Какими услугами компании пользуетесь?</div>
                             <div class="form__tags__tags-name">
                                 <ul class="form__tags__tags-name__list">
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Остров обезьян</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Тур по Тайланду</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Водопад Янг-бей</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Тур по Индонезии</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Никакими</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Тур по Бали</a></li>
-                                    <li class="form__tags__tags-name__item"><a href=""
-                                            class="form__tags__tags-name__link">Другое</a></li>
+                                    <li class="form__tags__tags-name__item">
+                                        <label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg"> Остров обезьян</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item"><label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Тур по Тайланду</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item"><label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Водопад Янг-бей</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item">
+                                        <label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Тур по Индонезии</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item">
+                                        <label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Никакими</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item">
+                                        <label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Тур по Бали</div>
+                                        </label>
+                                    </li>
+                                    <li class="form__tags__tags-name__item">
+                                        <label class="">
+                                            <input type="checkbox" class="form__tags__checkbox">
+                                            <div class="tags__checkbox__name tags__bg">Другое</div>
+                                        </label>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -238,6 +272,7 @@
             </div>
         </div>
     </div>
+    <!-- ----------------------- footer --------------------- -->
     <footer class="footer container__service__bg">
         <div class="container__service__footer container">
             <div class="footer__logo logo"><img class="logo__img" src="img/logo.png" alt="logo"></div>
@@ -250,14 +285,10 @@
             </div>
             <div class="footer__social social">
                 <ul class="social__list">
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/telegram.png" alt="telegram"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/vkontakte.png" alt="vkontakte"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/facebook.png" alt="facebook"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/instagram.png" alt="instagram"></a></li>
+                    <li class="social__items"> <a class="social__link fb" href="https://www.facebook.com/"></a> </li>
+                    <li class="social__items"><a class="social__link inst" href="https://www.instagram.com/"></a></li>
+                    <li class="social__items"><a class="social__link telegram" href="https://telegram.org/"></a></li>
+                    <li class="social__items"><a class="social__link vk" href="https://vk.com/"></a></li>
                 </ul>
             </div>
             <div class="footer__contacts contacts">

@@ -7,6 +7,7 @@
     <title>Air Asia - Услуги</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
     <link rel="stylesheet" href="./css/service.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/pagination.css">
@@ -19,18 +20,25 @@
             <!-- ------------------------ header ------------------------ -->
             <header class="header header__service">
                 <div class="header__logo logo">
-                    <a class="logo__link" href="#"><img class="logo__img" src="./img/logo.png" alt="logo"></a>
+                    <a class="logo__link" href="index.html"><img class="logo__img" src="./img/logo.png" alt="logo"></a>
                 </div>
                 <div class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__items"><a class="menu__link" href="index.html">Главная</a></li>
+                        <li class="menu__items"><a class="menu__link" href="about.html">Главная</a></li>
                         <li class="menu__items"><a class="menu__link menu__link-active" href="#">Услуги</a></li>
                         <li class="menu__items"><a class="menu__link" href="reviews.html">Отзывы</a></li>
                     </ul>
                 </div>
                 <div class="header__contacts contacts">
                     <a class="contacts__telefon" href="tel:88007003030">8 800 700 30 30</a>
-                    <div class="contacts__timework">График работы</div>
+                    <div class="contacts__timework">
+                        <p class="contacts__timework-text">График работы</p>
+                        <div class="contacts__dropdown">
+                            <p class="contacts__dropdown-hours">пн-вс: 09:00 - 20:00</p>
+                            <p class="contacts__dropdown-lunch">Обед: 14:00-14:30</p>
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
                 </div>
             </header>
             <!-- ------------------------ title ------------------------ -->
@@ -168,14 +176,10 @@
             </div>
             <div class="footer__social social">
                 <ul class="social__list">
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/telegram.png" alt="telegram"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/vkontakte.png" alt="vkontakte"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/facebook.png" alt="facebook"></a></li>
-                    <li class="social__items"><a class="social__link" href="#"><img class="social__img"
-                                src="img/socials/instagram.png" alt="instagram"></a></li>
+                    <li class="social__items"> <a class="social__link fb" href="https://www.facebook.com/"></a> </li>
+                    <li class="social__items"><a class="social__link inst" href="https://www.instagram.com/"></a></li>
+                    <li class="social__items"><a class="social__link telegram" href="https://telegram.org/"></a></li>
+                    <li class="social__items"><a class="social__link vk" href="https://vk.com/"></a></li>
                 </ul>
             </div>
             <div class="footer__contacts contacts">
