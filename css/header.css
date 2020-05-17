@@ -15,6 +15,7 @@
     justify-content: space-between;
     margin-bottom: 225px;
 }
+
 .content-title__main {
     font-size: 72px;
     line-height: 1.2;
@@ -26,6 +27,7 @@
     display: flex;
     padding-top: 30px;
 }
+
 .header__service {
     margin-bottom: 0;
 }
@@ -35,7 +37,7 @@
 }
 
 .menu {
-    margin-left: 50px;
+    margin-left: 66px;
     flex: 2;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .menu__items {
-    margin-right: 50px;
+    margin-right: 54px;
 }
 
 .menu__items:last-child {
@@ -56,6 +58,7 @@
     font-weight: 400;
     line-height: 40px;
     color: #ffffff;
+    transition: 0.3s;
 }
 
 .menu__link:hover {
@@ -66,17 +69,6 @@
     color: #d21d16;
 }
 
-.social {
-    min-height: 40px;
-    padding-left: 132px;
-}
-
-.contacts {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-}
-
 .contacts__telefon {
     font-size: 26px;
     font-weight: 400;
@@ -84,13 +76,19 @@
     color: #ffffff;
 }
 
-.contacts__timework {
+.header__contacts {
+    margin-top: -8px;
+}
+
+.contacts__timework-text {
     font-size: 13px;
     font-weight: 400;
+    text-align: right;
     text-decoration: underline;
     color: #ffffff;
     cursor: pointer;
 }
+
 .bredcrums__list {
     display: flex;
 }

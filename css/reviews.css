@@ -44,10 +44,8 @@ h6 {
 }
 
 .reviews__block {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    
-    align-items: flex-start;
     width: 556px;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -59,10 +57,13 @@ h6 {
 }
 
 .reviews__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    column-count: 2;
+    column-gap: 28px;
+    /* отступы между колонок */
+}
+
+.reviews__item {
+    display: inline-flex;
 }
 
 .reviews__block-image {
@@ -73,7 +74,7 @@ h6 {
 
 .reviews__block-image__img {
     height: 190px;
-    padding: 50px 21px 0 29px;
+    padding: 50px 23px 0 29px;
 }
 
 .reviews__block-image__img__avatar {
@@ -111,13 +112,13 @@ h6 {
     line-height: 42px;
     font-weight: 400;
     color: #333333;
-    padding: 8px 15px;
+    padding: 8px 17px;
     background-color: #c7e9e3;
     border-radius: 30px;
 }
 
 .reviews__block-text {
-    margin: 0 30px 31px 30px;
+    margin: 0 30px 31px 31px;
 }
 
 .reviews__block-text__title {
@@ -164,11 +165,11 @@ h6 {
 .form {
     background-color: #f4f5f5;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 99px;
 }
 
 .form__title {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .form__title-text {
@@ -187,13 +188,13 @@ h6 {
 
 .form__name,
 .form__social {
-    width: 555px;
+    width: 49%;
     height: 62px;
     font-size: 18px;
     background-color: #ffffff;
     border-radius: 4.0px;
     border: none;
-    padding-left: 29px;
+    padding-left: 30px;
 }
 
 
@@ -211,25 +212,31 @@ h6 {
 
 textarea {
     font-family: Arial, Helvetica, sans-serif;
-    resize: none;
     width: 100%;
     height: 232px;
     font-size: 18px;
     background-color: #ffffff;
     border-radius: 4.0px;
     border: none;
-    padding: 30px;
-    resize: none;
+    padding: 27px;
 }
 
 .form__tags {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.form__tags__checkbox:checked ~ .tags__bg {
+    background-color: #c7e9e3;
+}
+
+.form__tags__checkbox {
+    display: none;
 }
 
 .form__tags__title {
-    width: 432px;
+    width: 376px;
     font-size: 18px;
     font-weight: 400;
     color: #202123;
@@ -238,30 +245,24 @@ textarea {
 .form__tags__tags-name {
     flex: 1;
 }
+
 .form__tags__tags-name__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
 }
 
-.form__tags__tags-name__list :last-child {
-    justify-content: flex-start;
-}
-
-.form__tags__tags-name__link {
+.tags__checkbox__name {
     font-size: 13px;
-    line-height: 42px;
     font-weight: 400;
     color: #333333;
-    padding: 10px;
     background-color: #e6e6e6;
-    border-radius: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.form__tags__tags-name__link:hover {
-    background-color: #c7e9e3;
+    padding: 10px 13px;
+    border-radius: 50px;
+    margin-right: 17px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .form__button {
@@ -280,6 +281,7 @@ textarea {
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .form__btn:hover {
@@ -287,5 +289,5 @@ textarea {
 }
 
 .margin-left {
-    margin-left: 20px;
+    margin-left: 23px;
 }

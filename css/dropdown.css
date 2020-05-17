@@ -1,0 +1,49 @@
+.contacts__timework {
+    position: relative;
+}
+
+.contacts__dropdown {
+    position: absolute;
+    width: 180px;
+    height: 77px;
+    padding: 15px;
+    opacity: 0.8;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1e1f20;
+    background-color: #ffffff;
+    border-radius: 4.0px;
+    top: 100%;
+    left: 9999px;
+    right: 0;
+    margin-top: 17px;
+}
+
+.contacts__dropdown::before {
+    content: "";
+    display: block;
+    height: 20px;
+    top: -20px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.contacts__dropdown-lunch {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.contacts__timework:hover .contacts__dropdown {
+    left: 13px;
+}
+
+.triangle {
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: rotate(225deg);
+    top: -8px;
+    left: 101px;
+}

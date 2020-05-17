@@ -99,8 +99,9 @@ li {
     color: #ba0700;
     background-color: #ffffff;
     border: 2px solid #ba0700;
-    padding: 16px 28px;
-    border-radius: 30.0px
+    padding: 16px 38px;
+    border-radius: 30.0px;
+    transition: 0.3s;
 }
 
 .service-block__desk__btn:hover {
@@ -111,7 +112,7 @@ li {
 
 /* --------------------------- partners ----------------------- */
 .partners {
-    padding-bottom: 67px;
+    padding-bottom: 92px;
 }
 
 .partners__title {
@@ -139,6 +140,7 @@ li {
     width: 250px;
     height: 100px;
     filter: grayscale(100%);
+    transition: 0.7s;
 }
 
 .partners__block__link:hover {

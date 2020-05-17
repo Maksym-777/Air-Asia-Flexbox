@@ -16,11 +16,17 @@
 .footer__menu {
     width: 30%;
     padding-top: 18px;
+    margin-left: 50px;
 }
 
 .footer__social {
     width: 30%;
     padding-top: 20px;
+}
+
+.social {
+    min-height: 40px;
+    padding-left: 111px;
 }
 
 .social__list {
@@ -35,21 +41,63 @@
     margin-right: 0;
 }
 
+
+.social__link {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: url(../img/socials/social__sprit.png) 0 0 no-repeat;
+}
+
+.inst {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -82px;
+}
+
+.telegram {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -164px;
+}
+
+.vk {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -246px;
+}
+
+.fb:hover {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -41px;
+}
+
+.inst:hover {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -123px;
+}
+
+.telegram:hover {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -205px;
+}
+
+.vk:hover {
+    background-image: url(../img/socials/social__sprit.png);
+    background-position-x: -287px;
+}
+
 .footer__contacts {
-    width: 30%;
+    width: 18%;
     padding-top: 14px;
+    text-align: right;
 }
 
 .contacts__freecall {
     font-size: 11px;
     font-weight: 400;
-    text-align: right;
     color: #999999;
 }
 
 .container__service__bg {
     background-color: #0e1e26;
-    /* background-color for footer */
 }
 
 .container__service__footer {
