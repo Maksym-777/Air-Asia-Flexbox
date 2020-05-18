@@ -5,7 +5,6 @@
 .contacts__dropdown {
     position: absolute;
     width: 180px;
-    height: 77px;
     padding: 15px;
     opacity: 0.8;
     font-size: 13px;
@@ -13,8 +12,8 @@
     color: #1e1f20;
     background-color: #ffffff;
     border-radius: 4.0px;
+left:9999px;
     top: 100%;
-    left: 9999px;
     right: 0;
     margin-top: 17px;
 }

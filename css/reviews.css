@@ -13,11 +13,13 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 .wrapper {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
+
 .container {
     margin: 0 auto;
     width: 1140px;
@@ -52,8 +54,7 @@ h6 {
     flex-direction: column;
     width: 556px;
     border-radius: 4px;
-    margin-bottom: 20px;
-    background-color: #f4f5f5;
+
 }
 
 .reviews__blocks {
@@ -63,22 +64,26 @@ h6 {
 .reviews__list {
     column-count: 2;
     column-gap: 28px;
+    margin-bottom: -20px;
     /* отступы между колонок */
 }
 
 .reviews__item {
     display: inline-flex;
+    margin-bottom: 20px;
+    background-color: #f4f5f5;
 }
 
 .reviews__block-image {
     display: flex;
     height: 190px;
     margin-bottom: 24px;
+    padding: 24px 30px 30px 29px;
 }
 
 .reviews__block-image__img {
     height: 190px;
-    padding: 50px 23px 0 29px;
+    padding-right: 23px;
 }
 
 .reviews__block-image__img__avatar {
@@ -88,7 +93,7 @@ h6 {
 }
 
 .reviews__block-image__name {
-    padding: 76px 0 0 2px;
+    padding: 24px 0 0 2px;
 }
 
 .reviews__block-image__name__titl {
@@ -240,14 +245,14 @@ textarea {
     display: none;
 }
 
-.form__tags__title {
+.form__tags-title {
     width: 376px;
     font-size: 18px;
     font-weight: 400;
     color: #202123;
 }
 
-.form__tags__tags-name {
+.form__tags-tags-name {
     flex: 1;
 }
 
